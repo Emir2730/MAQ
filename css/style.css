@@ -1,0 +1,380 @@
+/*Обнуление*/
+*{padding: 0;margin: 0; border: 0;}
+*,*::before, *:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%; width: 100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-abjust: 100%;-moz-text-size-abjust: 100%;-webkit-text-size-abjust: 100%;}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-ms-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+/*------------------------------*/
+
+body {
+  height: 100%;
+}
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  max-width: 1440px;
+  width: 0 auto;
+  background-color: #ffffff;
+  z-index: 2;
+
+}
+
+.header_body {
+  display: flex;
+  padding: 32px 40px 32px 40px;
+}
+
+.header_logo {}
+
+.logo {}
+
+.header_burger {}
+
+.header_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_list {
+  margin: 0px 260px 0 31px;
+  display: flex;
+  text-transform: uppercase;
+}
+
+.li {
+  padding: 0 0 0 21px;
+}
+
+.header_link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  color: black;
+}
+
+.one:visited {
+  color: #9267e4;
+}
+
+.one:hover,
+.one:focus {
+  color: #ef2453;
+}
+
+.two:visited {
+  color: #9267e4;
+}
+
+.two:hover,
+.two:focus {
+  color: #ef2453;
+}
+
+
+
+.three:visited {
+  color: #9267e4;
+}
+
+.three:hover,
+.three:focus {
+  color: #ef2453;
+}
+
+.four:visited {
+  color: #9267e4;
+}
+
+.four:hover,
+.four:focus {
+  color: #ef2453;
+}
+
+.five:visited {
+  color: #9267e4;
+}
+
+.five:hover,
+.five:focus {
+  color: #ef2453;
+}
+
+.six:visited {
+  color: #9267e4;
+}
+
+.six:hover,
+.six:focus {
+  color: #ef2453;
+}
+
+.seven:visited {
+  color: #9267e4;
+}
+
+.seven:hover,
+.seven:focus {
+  color: #ef2453;
+}
+
+.log_in {
+  display: flex;
+  text-transform: capitalize;
+}
+
+.span_log {
+  display: flex;
+  padding: 15px 26px 0 0 ;
+}
+
+.span_log:visited {
+  color: #9267e4;
+}
+
+.span_log:hover,
+.span_log:focus {
+  text-decoration: underline;
+  color: #ef2453;
+}
+
+.span_log::before {
+  content: '';
+  margin-left: 10px;
+  height: 27px;
+  width: 27px;
+  background-image: url('../img/nav/Vector.svg');
+  background-repeat: no-repeat;
+}
+
+.button_log_in {
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(left, #3ae4df 0%,#7a88ff 100%);
+  padding: 13px 51px 11px 51px;
+  color: #ffffff;
+  margin-left: 26px;
+  border-radius: 5px;
+}
+
+.button_log_in:hover {
+  text-transform: capitalize;
+  padding: 10px 48px 8px 48px;
+  margin-left: 26px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #7a88ff;
+  border: 3px solid #7a88ff;
+}
+
+.button_log_in:focus {
+  box-shadow: 5px 5px 5px #ef2453;
+}
+
+.emptiness {
+  padding-bottom: 106px;
+}
+
+.slider {
+  background-image: url('../img/slider/slider.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 179px 0 120px 165px;
+}
+
+.content {
+  display: block;
+  width: 382px;
+  padding-bottom: 12px;
+}
+
+.content_title {
+  font-family: Product Sans;
+  font-style: Regular;
+  font-size: 56px;
+  align: left;
+  vertical-align: top;
+  padding-bottom: 37px;
+}
+
+.content_text {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 25.31px;
+  align: left;
+  vertical-align: top;
+}
+
+.content_text_2 {
+  padding-bottom: 37px;
+  padding-bottom: 60px;
+}
+
+.content_button {
+  text-transform: capitalize;
+  display: block;
+  background: -webkit-linear-gradient(left, #3ae4df 0%,#7a88ff 100%);
+  padding: 19px 41px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.content_button:hover {
+  text-transform: capitalize;
+  padding: 16px 38px 16px 38px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #7a88ff;
+  border: 3px solid #7a88ff;
+}
+
+.content_button:focus {
+  box-shadow: 5px 5px 5px #ef2453;
+}
+
+.ED_Msg {
+  padding: 160px 0 55px 165px;
+  display: flex;
+}
+
+.ed_img {
+  display: block;
+  background-image: url('../img/ED_Msg/Media.png');
+  background-repeat: no-repeat;
+  width: 443px;
+  padding-top: 81px;
+}
+
+.img_1 {}
+
+.ed_content {
+  padding-top: 54px;
+  margin-left: 136px;
+  width: 470px;
+}
+
+.ed_title {
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 26px;
+}
+
+.ed_text_1 {
+  margin-bottom: 13px;
+}
+
+.ed_text_2 {
+  font-size: 14px;
+  line-height: 19.69px;
+  opacity: 0.5;
+  margin-bottom: 26px;
+}
+
+.ed_link {
+  font-size: 16px;
+  color: #3ae4df;
+  text-transform: capitalize;
+  margin-bottom: 55px;
+}
+
+.ed_link:visited {
+  color: #9267e4;
+}
+
+.ed_link:hover,
+.ed_link:focus {
+  text-decoration: underline;
+  color: #ef2453;
+}
+
+.upcoming_training {
+  padding: 55px 165px 113px 165px;
+}
+
+.upcoming_training_title {
+  text-align: center;
+}
+
+.Training_list {
+  display: flex;
+  margin-top: 39px;
+}
+
+
+.block_img {
+  margin-bottom: 24px;
+}
+
+.block_text_1 {
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+
+.block_text_2 {
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  align: left;
+  vertical-align: top;
+  margin-bottom: 24px;
+}
+
+.block_text_3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  align: left;
+  vertical-align: top;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.button_link {
+  display: inline-block;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(left, #3ae4df 0%,#7a88ff 100%);
+  padding: 12px 39px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-style: Regular;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.button_link:hover {
+  text-transform: capitalize;
+  padding: 9px 36px 9px 36px;
+  border-radius: 5px;
+  background: #ffffff;
+  color: #7a88ff;
+  border: 3px solid #7a88ff;
+}
+
+.button_link:focus {
+  box-shadow: 5px 5px 5px #ef2453;
+}
+
+.Training {
+  margin-left: 22px;
+}
